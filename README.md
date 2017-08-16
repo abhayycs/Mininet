@@ -1,6 +1,11 @@
 # mininet
 TCP_UDP behaviour analysis
 
+//install mininet #UBUNTU
+sudo apt-get update
+sudo apt-get install mininet
+
+//Goal
 In order to understand the behaviour of TCP and UDP. How the traffic affect, how the bandwidth utilization.
 TCP is highly reliable protocol while UDP is fast transmission protocol (maximum throughput).
 Here, we will see the behaviour of TCP and UDP by setting up the network topology, flow rules, and do iperf using mininet 
